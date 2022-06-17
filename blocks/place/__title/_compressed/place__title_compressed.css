@@ -1,0 +1,15 @@
+.place__title_compressed{
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 911px) {
+  .place__title_compressed{
+    padding-right: 10%;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .place__title_compressed{
+    padding-right: 0;
+  }
+}

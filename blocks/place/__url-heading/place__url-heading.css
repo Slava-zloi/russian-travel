@@ -6,11 +6,18 @@
   color: #aaa;
   margin: 0;
   padding-bottom: 12px;
+  text-transform: uppercase;
 }
 
-@media screen and (max-width: 911px) {
+@media screen and (max-width: 1140px) {
+  .place__url-heading {
+    line-height: 12px;
+  }
+}
+
+@media screen and (max-width: 568px) {
   .place__url-heading{
-    font-size: 12px;
-    line-height: 16px;
+    padding: 0 16px 12px;
+    box-sizing: border-box;
   }
 }
